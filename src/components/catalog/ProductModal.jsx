@@ -1,4 +1,4 @@
-import "../styles/catalog.css";
+import "../styles/Catalog.css";
 
 const ProductModal = ({ product, onClose }) => {
   return (
@@ -9,10 +9,10 @@ const ProductModal = ({ product, onClose }) => {
         <div className="modal-content">
           
           <div className="modal-image">
-            <img
-              src={product.image || "https://via.placeholder.com/400"}
-              alt={product.title}
-            />
+              <img
+                src={product.image || "/assets/placeholder400.png"}
+                alt={product.title}
+              />
           </div>
 
           

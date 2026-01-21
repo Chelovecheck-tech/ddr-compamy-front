@@ -2,7 +2,7 @@ import './styles/Footer.css';
 // Footer.js
 import React from "react";
 import "./styles/Footer.css";
-import logo from "../assets/logo.png"; // твой логотип
+ import logo from "/assets/logo.png"; // твой логотип
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
       <div className="footer-container">
         {/* Логотип */}
         <div className="footer-logo">
-          <img src={logo} alt="Логотип" />
+            <img src="/assets/logo.png" alt="Логотип" />
         </div>
 
         {/* Контакты */}
