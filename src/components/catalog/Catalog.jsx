@@ -14,7 +14,7 @@ const Catalog = ({ filter, setFilter }) => {
 
   useEffect(() => {
     setLoading(true);
-    let url = "http://127.0.0.1:8000/api/products/";
+    let url = "https://web-production-b4dad.up.railway.app/api/products/";;
     if (filter) {
       if (typeof filter === "object" && filter.type && filter.slug) {
         if (filter.type === "category") {
