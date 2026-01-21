@@ -2,15 +2,24 @@ import './styles/HeroBanner.css';
 import Catalog from './catalog/Catalog';
 
 function HeroBanner({ onCategoryClick }) {
-  const heroBg = '/assets/herobanner.jpg';
   return (
-    <section
-      className="hero"
-      style={{
-        background: `url('${heroBg}') no-repeat center`,
-        backgroundSize: 'cover',
-      }}
-    >
+    <section className="hero">
+      <img
+        src="/assets/herobanner.jpg"
+        alt="Фон HeroBanner"
+        className="hero-bg-img"
+        style={{
+          position: 'absolute',
+          top: 0,
+          left: 0,
+          width: '100%',
+          height: '100%',
+          objectFit: 'cover',
+          zIndex: -2,
+        }}
+        aria-hidden="true"
+        draggable="false"
+      />
       <div className="hero__container">
         <div className="hero__content">
           <h1 className="hero__title">Снаряжение для охоты и рыбалки</h1>
