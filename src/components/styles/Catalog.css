@@ -167,10 +167,11 @@ body {
 }
 
 /* маленькие телефоны */
-@media (max-width: 420px) {
+@media (max-width: 460px) {
   .products-grid {
     grid-template-columns: 1fr;
   }
+  
 }
 /* ===== MODAL ===== */
 .modal-overlay {
