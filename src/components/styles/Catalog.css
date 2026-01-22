@@ -150,7 +150,7 @@ body {
 }
 
 /* планшет / мобилка */
-@media (max-width: 800px) {
+@media (max-width: 970px) {
   .catalog-layout {
     grid-template-columns: 1fr;
   }
