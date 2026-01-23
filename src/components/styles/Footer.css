@@ -22,6 +22,7 @@
 }
 
 .footer-contacts p {
+  max-width: 350px;
   margin: 6px 0;
   font-size: 14px;
 }

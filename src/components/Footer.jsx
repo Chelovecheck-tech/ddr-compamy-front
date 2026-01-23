@@ -15,8 +15,8 @@ const Footer = () => {
 
         {/* Контакты */}
         <div className="footer-contacts">
-          <p>📍 г. Бишкек, ул. Ленина 50</p>
-          <p>📧 ddr@example.com</p>
+          <p>📍 Кыргызская Республика, Чуйская область, Сокулукский район, село Кожомкул, ул. Пионерская 115а</p>
+          <a href='mailto:ddrcompany2025@gmail.com'>📧 ddrcompany2025@gmail.com</a>
           <div className="footer-socials">
             <a href="https://wa.me/996701451146" target="_blank" rel="noopener noreferrer">
               <img src="https://cdn-icons-png.flaticon.com/512/124/124034.png" alt="WhatsApp" />
